@@ -1,3 +1,8 @@
+if [ -z "$1" ]; then
+  echo Input password is missing
+  exit
+fi
+
 source common.sh
 component=shipping
 MAVEN

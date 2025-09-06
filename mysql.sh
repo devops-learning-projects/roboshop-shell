@@ -1,4 +1,4 @@
-if [ -z "$1 "]; then
+if [ -z "$1" ]; then
   echo Input Password is Missing
   exit
 fi
