@@ -1,6 +1,6 @@
 if [ -z "$1" ]; then
   echo Input Password is Missing
-  exit
+  exit 1
 fi
 
 dnf install mysql-server -y

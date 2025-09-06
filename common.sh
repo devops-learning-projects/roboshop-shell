@@ -1,6 +1,6 @@
 APP_PREREQ() {
   cp ${component}.service /etc/systemd/system/${component}.service
-  cartadd roboshop
+  useradd roboshop
   rm -rf /app
   mkdir /app
   curl -o /tmp/${component}.zip https://roboshop-artifacts.s3.amazonaws.com/${component}-v3.zip
